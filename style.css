@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    height: 280px;
+}
+
+.logo {
+    font-size: 13px;
+    color: #F9FAF8;
+}
+
+.navbar {
+    width: 535px;
+    /* max-width: 85%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.links{
+    display: flex;
+    gap: 18px;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.part1 {
+     width: 535px;
+    margin: 65px auto 0;
+    /* max-width: 85%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1_image {
+    width: 280px;
+    height: 125px;
+    background-color: rgb(108, 116, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+
+.part1_text {
+    width: 235px;
+}
+
+.part1_text h1 {
+    font-size: 26px;
+    line-height: 1.05;
+    color: #F9FAF8;
+    margin-bottom: 4px;
+}
+
+.part1_text p {
+    font-size: 9px;
+    color: #E5E7EB;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.part1_text button {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.information{
+    height: 280px;
+    padding-top: 25px;
+    text-align: center;
+}
+.information h2{
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.card p{
+    font-size: 9px;
+    color: rgb(108, 116, 126);;
+    margin-top: 3px;
+}
+.card{
+    width: 88px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+.card_image{
+    width: 88px;
+    height: 88px;
+    border: solid dodgerblue;
+    border-radius: 7px;
+}
+.quote_section{
+    background-color: rgb(229, 231, 236);
+    display: flex;
+    align-items: center;
+    height: 280px;
+}
+.quote_text{
+    width: 500px;
+    margin: 0 auto;
+}
+.quote{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 1.25;
+    
+}
+.autor{
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.last_part{
+    display: flex;
+    align-items: center;
+    height: 280px;
+    justify-content: space-between;
+}
+.blue_box{
+    margin: 0 auto;
+    background-color: dodgerblue;
+    border: 9px solid dodgerblue;
+    padding: 20px 75px;
+    border-radius: 5px;
+     color: white;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+.blue_box h3{
+   font-size: 12px;
+   margin-bottom: 2px;
+}
+.blue_box p{
+    font-size: 8px;
+}
+.blue_box button{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    border: solid 1px #F9FAF8;
+    padding: 3px 15px;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
